@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView
+           android:layout_width="100dp"
+           android:layout_height="60dp"
+           android:text="one,one"
+           android:textColor="#fff"
+           android:layout_margin="3dp"
+           android:textSize="26sp"
+           android:background="@drawable/pad_lab2"
+           ></TextView>
+       <TextView
+           android:layout_width="100dp"
+           android:layout_height="60dp"
+           android:text="one,two"
+           android:textColor="#fff"
+           android:layout_margin="3dp"
+           android:textSize="26sp"
+           android:background="@drawable/pad_lab2"
+           ></TextView>
+       <TextView
+           android:layout_width="100dp"
+           android:layout_height="60dp"
+           android:text="one,three"
+           android:textColor="#fff"
+           android:layout_margin="3dp"
+           android:textSize="26sp"
+           android:background="@drawable/pad_lab2"
+           ></TextView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="60dp"
+           android:layout_margin="3dp"
+           android:background="@drawable/pad_lab2"
+           android:text="one,four"
+           android:textColor="#fff"
+           android:textSize="26sp"></TextView>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="two,one"
+            android:textColor="#fff"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:background="@drawable/pad_lab2"
+            ></TextView>
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="60dp"
+            android:text="two,two"
+            android:textColor="#fff"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:background="@drawable/pad_lab2"
+            ></TextView>
+        <TextView
+            android:layout_width="91dp"
+            android:layout_height="60dp"
+            android:text="two,three"
+            android:textColor="#fff"
+            android:layout_margin="3dp"
+            android:textSize="26sp"
+            android:background="@drawable/pad_lab2"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/pad_lab2"
+            android:text="two,four"
+            android:textColor="#fff"
+            android:textSize="26sp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/pad_lab2"
+            android:text="three,one"
+            android:textColor="#fff"
+            android:textSize="26sp"></TextView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/pad_lab2"
+            android:text="three,two"
+            android:textColor="#fff"
+            android:textSize="26sp"></TextView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/pad_lab2"
+            android:text="three,three"
+            android:textColor="#fff"
+            android:textSize="26sp"></TextView>
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="60dp"
+            android:layout_margin="3dp"
+            android:background="@drawable/pad_lab2"
+            android:text="three,four"
+            android:textColor="#fff"
+            android:textSize="26sp"></TextView>
+    </LinearLayout>
+
+</LinearLayout>
+
